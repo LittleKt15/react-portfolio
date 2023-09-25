@@ -4,13 +4,13 @@ import WorkItem from "./WorkItem";
 const data = [
     {
         year: 2020,
-        title: 'PHP Developer',
+        title: 'Ecommerce',
         duration: '1 Years',
         details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis dolores distinctio odio possimus, rem autem veritatis est rerum. Expedita, nihil culpa nisi consequatur earum dignissimos eos recusandae impedit repellat!',
     },
     {
         year: 2021,
-        title: 'Laravel Developer',
+        title: 'Hotel',
         duration: '1 Years',
         details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo perferendis dolores distinctio odio possimus, rem autem veritatis est rerum. Expedita, nihil culpa nisi consequatur earum dignissimos eos recusandae impedit repellat!',
     },

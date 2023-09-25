@@ -9,14 +9,14 @@ const Main = () => {
             <div className="w-full h-screen absolute top-0 lef-0 bg-white/50">
                 <div className="max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center">
                     <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm KyawZin</h1>
-                    <h2 className="flex sm:3xl text-2xl pt-4 text-gray-800">I'm a
+                    <h2 className="flex sm:3xl text-2xl pt-4 text-gray-800">
                         <TypeAnimation
                             sequence={[
-                                'FullStack Developer',
+                                "I'm a FullStack Developer",
                                 2000,
-                                'Happy Coder',
+                                "I'm a Coder",
                                 2000,
-                                'Tech Enthusiast',
+                                "I'm a coding enthusiast",
                                 2000,
                             ]}
                             wrapper="span"

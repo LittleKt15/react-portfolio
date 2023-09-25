@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Sidenav from './components/Sidenav'
 import Main from './components/Main'
 import Work from './components/Work'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -10,7 +12,8 @@ function App() {
       <Sidenav />
       <Main />
       <Work />
-      {/* https://www.youtube.com/watch?v=22CxRxryQFE 51:24 */}
+      <Projects />
+      <Contact />
     </div>
   )
 }
