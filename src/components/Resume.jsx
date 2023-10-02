@@ -33,28 +33,45 @@ const Resume = () => {
                     </div>
                 </section>
 
-                <section className='mb-8 justify-self-end'>
+                <section className='mb-8 md:justify-self-center'>
+                    <h2 className='text-2xl font-semibold text-[#001b5e] mb-4'>Skills</h2>
+                    <ul className='list-disc pl-6'>
+                        <li className='mb-2'>HTML/CSS</li>
+                        <li className='mb-2'>JavaScript</li>
+                        <li className='mb-2'>React.js</li>
+                        <li className='mb-2'>Tailwind CSS</li>
+                        <li className='mb-2'>PHP</li>
+                        <li className='mb-2'>Laravel</li>
+                    </ul>
+                </section>
+
+                <section className='mb-8'>
                     <h2 className='text-2xl font-semibold text-[#001b5e] mb-4'>Work Experience</h2>
                     <div className='mb-4'>
                         <h3 className='text-xl font-semibold'>Internship</h3>
                         <p className='text-gray-600'>Softcomm Technology</p>
                         <p className='text-gray-600'>April 2023 - May 2023</p>
                         <ul className='list-disc pl-6'>
-                            <li className='mb-2'>Achievement or responsibility bullet point 1.</li>
-                            <li className='mb-2'>Achievement or responsibility bullet point 2.</li>
+                            <li className="mb-2">Knowledge about Static Websites UI Design with Tailwind CSS</li>
+                            <li className="mb-2">Knowledge about Data Analysis Technique with ERD</li>
+                            <li className="mb-2">Using MySQL for CMS System database structure</li>
+                            <li className="mb-2">Knowledge about SQL Language - CRUD for CMS System</li>
+                            <li className='mb-2'>Knowledge about Web Development with Laravel and PHP for CMS system</li>
+                            <li className='mb-2'>Knowledge of Responsive Web Design</li>
                         </ul>
                     </div>
-                </section>
 
-                <section className='mb-8'>
-                    <h2 className='text-2xl font-semibold text-[#001b5e] mb-4'>Skills</h2>
-                    <ul className='list-disc pl-6'>
-                        <li className='mb-2'>HTML/CSS</li>
-                        <li className='mb-2'>JavaScript</li>
-                        <li className='mb-2'>React.js</li>
-                        <li className='mb-2'>PHP</li>
-                        <li className='mb-2'>Laravel</li>
-                    </ul>
+                    <div className='mb-4'>
+                        <h3 className='text-xl font-semibold'>Trainee</h3>
+                        <p className='text-gray-600'>Softcomm Technology</p>
+                        <p className='text-gray-600'>Sep 2023 - Now</p>
+                        <ul className='list-disc pl-6'>
+                            <li className="mb-2">C#, VB.net</li>
+                            <li className="mb-2">Basic React</li>
+                            <li className="mb-2">Knowledge about SPA Development</li>
+                            <li className="mb-2">Laravel + Vue SPA</li>
+                        </ul>
+                    </div>
                 </section>
             </div>
         </div>
